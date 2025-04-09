@@ -26,4 +26,4 @@ minutos = faixaMinutos%60
 
 #Exibir tempo total com divisão de horas, minutos e segundos
 
-print("O tempo total do álbum é: ",horas,"h",minutos,"m",segundos,"s")
+print("O tempo total do álbum é: ",horas,"H",minutos,"m",segundos,"s")
