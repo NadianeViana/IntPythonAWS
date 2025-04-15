@@ -1,12 +1,14 @@
 #Imprimir números de 1 a 100 e calcular o resultado da soma dos números entre si
 
-nI = 1
-nF = 100
+nmro = 1
+
+soma = 0
 
 
-cont = 0
+while   nmro <= 100:
+    print(nmro)
+    nmro += 1
+    soma += nmro
 
-while cont >= nI and cont <= nF:
-    print(cont)
-    cont += 1
+print("A soma é: ", soma)
 
