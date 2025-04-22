@@ -10,7 +10,7 @@ else:
     for i in range(1, opcUser + 1):
         if opcUser % i == 0:
             opcUserDiv += 1
-        if opcUserDiv == 2:
+    if opcUserDiv == 2:
             print("É primo!")
-        else:
+    else:
             print("Não é primo!")
